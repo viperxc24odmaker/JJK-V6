@@ -2121,7 +2121,7 @@ public final class TechniqueAbilities {
 
         String name = domainName(t);
         p.displayClientMessage(Component.literal("\u00a75\u00a7lDOMAIN EXPANSION"), true);
-        p.getServer().getPlayerList().broadcastSystemMessage(
+       level.getServer().getPlayerList().broadcastSystemMessage(
                 Component.literal("\u00a75\u00a7l\u2726 " + p.getName().getString()
                         + " \u2014 " + name + " \u2726"), false);
 
